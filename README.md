@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+## Introduction
+This repository is made to learn the basic forms of Dart Programming Language.
+Credits: The Net Ninja Youtube channel
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

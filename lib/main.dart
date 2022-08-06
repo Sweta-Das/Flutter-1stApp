@@ -18,11 +18,10 @@ class Home extends StatelessWidget {
       ),
 
       body: Center(
-        child: ElevatedButton.icon(
-          onPressed: () {},
-          icon: Icon(Icons.mail),
-          label: Text('Mail Me'),
-          style: ElevatedButton.styleFrom(primary: Colors.amber),
+        child: IconButton(
+          onPressed: () {print('You clicked');},
+          icon: Icon(Icons.alternate_email),
+          color: Colors.black,
         ),
       ),
 
