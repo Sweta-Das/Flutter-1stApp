@@ -16,21 +16,17 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('My first app'),
         centerTitle: true,
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.grey[600],
       ),
       body: Center(
-        child: Text('Hello World!',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-          ),),
+        child: Image(
+          image: NetworkImage('https://mobimg.b-cdn.net/v3/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg'),
+        )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
-        child: Text('Click Me!!'),
-        backgroundColor: Colors.redAccent,
+        child: Text('Click'),
+        backgroundColor: Colors.grey[600],
       ),
     );
   }
