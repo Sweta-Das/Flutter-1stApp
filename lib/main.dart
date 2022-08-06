@@ -19,9 +19,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.grey[600],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('Assets/pic.jpg'),
-        )
+        child: Image.asset('Assets/wallpaper.jpeg')
+            // Also Image.network('https://mobimg.b-cdn.net/v3/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg')
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
