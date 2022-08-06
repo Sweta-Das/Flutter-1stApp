@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Image(
-          image: NetworkImage('https://mobimg.b-cdn.net/v3/fetch/05/05eeb93a2e41734ecb6044146351f11e.jpeg'),
+          image: AssetImage('Assets/pic.jpg'),
         )
       ),
       floatingActionButton: FloatingActionButton(
